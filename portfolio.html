@@ -5,17 +5,25 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/css/modern-normalize.css">
+        <link rel="stylesheet" href="/css/styles.css">
     </head>
 
     <body>
         <!-- Шапка -->
         <header>
             <nav>
-                <a href="">WebStudio</a>
-                <ul>
-                    <li><a href="">Студия</a></li>
-                    <li><a href="">Портфолио</a></li>
-                    <li><a href="">Контакты</a></li>
+                <a href="" class="logo">
+                    <span class="logo-first-part">web</span><span class="logo-second-part">Studio</span>
+                </a>
+                <ul  class="nav-list">
+                    <li><a href="./index.html">студия</a></li>
+                    <li class="current-page"><a href="./portfolio.html">портфолио</a></li>
+                    <li><a href="">контакты</a></li>
                 </ul>
             </nav>
             <ul>
@@ -25,25 +33,25 @@
         </header>
         <main>
             <section>
-                <ul>
+                <ul class="buttons">
                     <li><button>все</button></li>
                     <li><button>веб-сайты</button></li>
                     <li><button>приложения</button></li>
                     <li><button>дизайн</button></li>
                     <li><button>маркетинг</button></li>
                 </ul>
-                <ul>
+                <ul class="cards">
                     <li>
                         <a href="">
                             <img src="/images/technokryack.jpg" alt=""> 
-                            <h2>Техноряк</h2>
+                            <h2>технокряк</h2>
                             <p>веб-сайт</p>
                         </a>
                     </li>
                     <li>
                         <a href="">
                             <img src="/images/poster-new-orlean.jpg" alt="">
-                            <h2>постер new orlean vs golden star</h2>
+                            <h2>постер new orlean <span class="lowercase">vs</span> golden star</h2>
                             <p>дизайн</p>
                         </a>
                     </li>
@@ -71,7 +79,7 @@
                     <li>
                         <a href="">
                             <img src="/images/inspirations.jpg" alt="">
-                            <h2>inspiration has no borders</h2>
+                            <h2>inspiration <span class="lowercase">has no</span> borders</h2>
                             <p>веб-сайт</p>
                         </a>
                     </li>
@@ -85,7 +93,7 @@
                     <li>
                         <a href="">
                             <img src="/images/project-lab.jpg" alt="">
-                            <h2>Проект LAB</h2>
+                            <h2>проект <span class="uppercase">lab</span></h2>
                             <p>маркетинг</p>
                         </a>
                     </li>
@@ -101,21 +109,23 @@
         </main>
         <!-- Подвал -->
         <footer>
-            <a href="">WebStudio</a>
+            <a href="" class="logo">
+                <span class="logo-first-part">web</span><span class="logo-footer-second-part">Studio</span>
+            </a>
             <address>
                 <ul>
                     <li>
-                        <a href="">г. Киев, пр-т Леси Украинки, 26</a>
+                        <a href="" class="address-place contacts">г. Киев, пр-т Леси Украинки, 26</a>
                     </li>
                     <li>
-                        <a href="mailto:info@example.com">info@example.com</a><br>
+                        <a href="mailto:info@example.com" class="contacts">info@example.com</a><br>
                     </li>
                     <li>
-                        <a href="tel:+380961111111">+380961111111</a>
+                        <a href="tel:+380961111111" class="contacts">+380961111111</a>
                     </li>
                 </ul>
             </address>
-        
+            
         </footer>
           
                 
