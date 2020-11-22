@@ -163,3 +163,10 @@ footer {
 .header-contacts {
   color: var(--secondary-text-color);
 }
+
+.nav-list a:hover,
+.nav-list a:focus,
+.header-contacts a:hover,
+.header-contacts a:focus {
+  color: var(--accent);
+}
