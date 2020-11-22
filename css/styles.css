@@ -27,10 +27,7 @@ header {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-header a:hover,
-header a:focus {
-  color: var(--accent);
-}
+
 .nav-list {
   text-transform: capitalize;
 }
